@@ -1,0 +1,42 @@
+{
+    "Version": 1.0,
+    "General": {
+        "Project": "",
+        "ProjectOwnerNavicatID": "",
+        "Server": "local",
+        "Catalog": "",
+        "Schema": "mytodo",
+        "ExportType": "SQL",
+        "ExportDirectoryBookmark": "",
+        "ExportDirectoryPath": "",
+        "TargetCodepage": 65001,
+        "AddTimeStamp": false,
+        "TimeStampFormat": "",
+        "IncludeTitle": false,
+        "FieldDelimiter": "\t",
+        "DateFormat": "DMY",
+        "DateSeparator": "/",
+        "ZeroPaddingDate": false,
+        "TimeSeparator": ":",
+        "DecimalSeparator": ".",
+        "TextQualifier": "\"",
+        "RowDelimiter": "CRLF",
+        "XMLFormat": "Element",
+        "UseBase64": true,
+        "AppendRecord": false,
+        "BlankIfZero": false,
+        "ContinueOnError": true
+    },
+    "Objects": [
+        {
+            "Object": {
+                "Name": "todos",
+                "ObjectType": "Table_MYSQL"
+            },
+            "TargetName": "todos",
+            "TargetFilePath": "C:\\Users\\Craven-PC\\Desktop\\todos.sql",
+            "AllFields": true,
+            "Fields": []
+        }
+    ]
+}
